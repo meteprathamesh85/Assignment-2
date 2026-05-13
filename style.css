@@ -32,13 +32,18 @@ body {
     font-weight: bold;
     color: #3b4a5d;
     margin-left: 80px;
+    cursor: pointer;
+}
+
+.logo:hover {
+    color: #0088ff;
+    text-decoration: underline;
 }
 
 .nav-links {
     list-style: none;
     display: flex;
     gap: 40px;
-
     align-items: center;
 }
 
@@ -47,6 +52,11 @@ body {
     text-decoration: none;
     font-size: 1.2em;
     font-weight: 500;
+}
+
+.nav-links a:hover {
+    color: #0088ff;
+    text-shadow: 0 2px 4px rgba(0, 136, 255, 0.3);
 }
 
 .user-btn {
@@ -59,6 +69,12 @@ body {
     font-size: 1.2em;
     font-weight: 500;
     margin-right: 60px;
+}
+
+.user-btn:hover {
+    background-color: #0088ff;
+    color: #fff;
+    box-shadow: 0 4px 15px rgba(0, 136, 255, 0.3);
 }
 
 .hero {
@@ -89,6 +105,10 @@ body {
     color: #0088ff;
 }
 
+.hero-text .accent:hover {
+    text-decoration: underline;
+}
+
 .hero-text p {
     font-size: 1.4em;
     line-height: 1.6;
@@ -109,6 +129,11 @@ body {
     font-size: 1.4em;
     font-weight: 500;
     box-shadow: 0 4px 15px rgba(59, 74, 93, 0.3);
+}
+
+.cta-btn:hover {
+    background: #005f99;
+    box-shadow: 0 6px 20px rgba(59, 74, 93, 0.5);
 }
 
 .hero-image {
